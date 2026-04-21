@@ -1,56 +1,137 @@
-# 🎬 Netflix Content Analysis Dashboard
+# Netflix Content Analysis using SQL and Power BI
 
-## 📌 Project Overview
+## Overview
 
-This project analyzes Netflix content using SQL and Power BI to uncover insights related to content distribution, trends, genres, and directors. The goal is to transform raw data into meaningful business insights through data analysis and visualization.
+This project analyzes Netflix content data to uncover patterns in content type, release trends, country distribution, and director contribution. Using SQL for data analysis and Power BI for visualization, the project turns raw entertainment data into an interactive dashboard with clear business-style insights.
 
----
+## Objective
 
-## 🎯 Objectives
+The objective of this project is to explore Netflix titles and build a dashboard that helps answer questions such as:
 
-* Analyze the distribution of Movies vs TV Shows
-* Identify top countries contributing content
-* Understand content growth over time
-* Discover top genres and directors
-* Build an interactive and visually appealing dashboard
+* How many total titles are available?
+* What is the split between Movies and TV Shows?
+* Which countries contribute the most titles?
+* How has content addition changed over time?
+* Which directors appear most frequently in the dataset?
 
----
+## Tools Used
 
-## 🛠️ Tools & Technologies
+* MySQL
+* Power BI
+* Excel
 
-* **SQL (MySQL)** – Data extraction and analysis
-* **Power BI** – Dashboard creation and visualization
-* **Excel** – Data preprocessing
+## Dataset Information
 
----
+The dataset contains Netflix titles with attributes such as:
 
-## 📊 Dashboard Features
+* show_id
+* type
+* title
+* director
+* country
+* date_added
+* release_year
+* rating
+* duration
+* listed_in
 
-### 🔹 KPI Cards
+## Project Workflow
 
-* Total Titles
-* Total Movies
-* Total TV Shows
+1. Collected and loaded the dataset
+2. Cleaned and explored the data
+3. Wrote SQL queries to analyze content distribution and trends
+4. Built an interactive Power BI dashboard
+5. Derived insights from visual analysis
 
-### 🔹 Visualizations
+## Dashboard Features
 
-* 📈 **Titles Added by Year** – Trend analysis of content growth
-* 🌍 **Titles by Country** – Distribution of content across countries
-* 🍩 **Movies vs TV Shows** – Content type comparison
-* 📊 **Top Directors** – Most frequent content creators
+The dashboard includes:
 
-### 🔹 Filters (Slicers)
+* **KPI Cards**
 
-* Country
-* Type (Movie / TV Show)
+  * Total Titles
+  * Total Movies
+  * Total TV Shows
 
----
+* **Visuals**
 
-## 📈 Key Insights
+  * Titles Added by Year
+  * Titles by Country
+  * Movies vs TV Shows
+  * Top Directors
 
-* Movies dominate the platform (~70% of total content)
-* The United States contributes the highest number of titles
-* Content addition peaked around 2020
-* Most directors contribute a single title, while a few contribute multiple
+* **Slicers**
 
+  * Country
+  * Type
 
+## Key Insights
+
+* Movies make up the majority of the content in the dataset.
+* The United States contributes the highest number of titles.
+* Content addition peaks around 2020 in this dataset.
+* Most directors appear only once, while a few directors contribute multiple titles.
+
+## SQL Analysis Included
+
+Some of the analysis performed in SQL:
+
+* Count of total titles
+* Movies vs TV Shows distribution
+* Titles added by year
+* Country-wise title count
+* Director-wise title count
+* Genre-wise title count
+
+## Folder Structure
+
+```text
+Netflix-Content-Analysis/
+│
+├── data/
+│   └── netflix_dataset.csv
+│
+├── sql/
+│   └── netflix_analysis.sql
+│
+├── dashboard/
+│   └── netflix_dashboard.pbix
+│
+├── images/
+│   └── dashboard.png
+│
+└── README.md
+```
+
+## Dashboard Preview
+
+Add your dashboard screenshot in the `images` folder and display it here.
+
+Example:
+
+```markdown
+![Netflix Dashboard](images/dashboard.png)
+```
+
+## How to Use
+
+1. Download the dataset from the `data` folder
+2. Open the SQL file to review analysis queries
+3. Open the Power BI file to interact with the dashboard
+4. Use slicers to filter results by country and type
+
+## What I Learned
+
+Through this project, I strengthened my skills in:
+
+* SQL querying
+* Data cleaning
+* Data visualization
+* Dashboard design
+* Insight generation
+
+## Conclusion
+
+This project demonstrates my ability to take a raw dataset, analyze it using SQL, and present findings through an interactive Power BI dashboard. It reflects both technical skills and business-oriented analytical thinking.
+
+This project demonstrates my ability to take a raw dataset, analyze it using SQL, and present findings through an interactive Power BI dashboard. It reflects both technical skills and business-oriented analytical thinking.
