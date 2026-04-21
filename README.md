@@ -1,4 +1,4 @@
-![Dashboard](dashboard.png)
+<img src="dashboard.png" width="800"/>
 
 # Netflix Content Analysis using SQL and Power BI
 
