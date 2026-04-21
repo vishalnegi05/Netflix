@@ -67,10 +67,10 @@ The dashboard includes:
 
 ## Key Insights
 
-* Movies make up the majority of the content in the dataset.
-* The United States contributes the highest number of titles.
-* Content addition peaks around 2020 in this dataset.
-* Most directors appear only once, while a few directors contribute multiple titles.
+- Movies form the majority of content, indicating stronger focus on film-based content  
+- The United States dominates content production in the dataset  
+- Content addition peaked around 2020, suggesting rapid platform growth  
+- Most directors contribute a single title, while a few contribute multiple titles  
 
 ## SQL Analysis Included
 
@@ -83,35 +83,20 @@ Some of the analysis performed in SQL:
 * Director-wise title count
 * Genre-wise title count
 
-## Folder Structure
-
-```text
 Netflix-Content-Analysis/
 │
 ├── data/
-│   └── netflix_dataset.csv
-│
-├── sql/
-│   └── netflix_analysis.sql
-│
 ├── dashboard/
-│   └── netflix_dashboard.pbix
-│
 ├── images/
-│   └── dashboard.png
-│
+├── sql/
 └── README.md
-```
 
-## Dashboard Preview
+## What this project demonstrates
 
-Add your dashboard screenshot in the `images` folder and display it here.
-
-Example:
-
-```markdown
-![Netflix Dashboard](images/dashboard.png)
-```
+- Ability to clean and analyze real-world data  
+- Strong understanding of data visualization principles  
+- Capability to build interactive dashboards  
+- Ability to derive meaningful insights from data  
 
 ## How to Use
 
