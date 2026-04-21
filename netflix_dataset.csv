@@ -1,0 +1,11 @@
+show_id,type,title,director,country,date_added,release_year,rating,duration,listed_in
+s1,Movie,The Great Escape,John Sturges,United States,"January 1, 2020",1963,PG,172 min,Action
+s2,TV Show,Breaking Bad,Vince Gilligan,United States,"February 15, 2019",2008,TV-MA,5 Seasons,Drama
+s3,Movie,Inception,Christopher Nolan,United States,"March 10, 2021",2010,PG-13,148 min,Sci-Fi
+s4,Movie,3 Idiots,Rajkumar Hirani,India,"April 5, 2020",2009,PG-13,170 min,Comedy
+s5,TV Show,Sacred Games,Anurag Kashyap,India,"July 7, 2018",2018,TV-MA,2 Seasons,Crime
+s6,Movie,Parasite,Bong Joon Ho,South Korea,"August 20, 2021",2019,R,132 min,Thriller
+s7,Movie,The Dark Knight,Christopher Nolan,United States,"June 18, 2020",2008,PG-13,152 min,Action
+s8,TV Show,Friends,Various,United States,"September 1, 2019",1994,TV-14,10 Seasons,Comedy
+s9,Movie,Dangal,Nitesh Tiwari,India,"October 10, 2020",2016,PG,161 min,Drama
+s10,Movie,Interstellar,Christopher Nolan,United States,"November 5, 2021",2014,PG-13,169 min,Sci-Fi
