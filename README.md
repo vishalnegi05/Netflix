@@ -1,3 +1,5 @@
+![Dashboard](dashboard.png)
+
 # Netflix Content Analysis using SQL and Power BI
 
 ## Overview
